@@ -1,0 +1,21 @@
+.botonA{
+
+    padding: 100px 50px;
+    color: pink;
+    border: royalblue;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.botonB{
+
+    padding: 100px 50px;
+    color: yellow;
+    border: royalblue;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.hidden{
+    opacity: 0.5;
+}
