@@ -1,6 +1,5 @@
 'use strict';
-const listElement = document.querySelector('.list');
+const name = 'Luisa';
+const lastName = 'Villa';
 
-const content = '<li>1</li><li>2</li><li>3</li>';
-
-listElement.innerHTML = content;
+console.log(`Hola ${name} ${lastName} encantada de conocerte`);

@@ -1,10 +1,7 @@
 'use strict';
 
-/*
-Obtenemos el elemento con el que queremos trabajar usando
-document.querySelector()
-*/
-var password = document.querySelector('p');
+var horasTotalesVividas = 0;
+var edad = 26;
 
-// Cambiamos el contenido del elemento, indicando que sea igual al actual, más una nueva palabra añadida
-password.innerHTML ='Mi contraseña es: ' + '**';
+horasTotalesVividas = (edad*8760);
+console.log('He vivido: ' +horasTotalesVividas + ' horas');
